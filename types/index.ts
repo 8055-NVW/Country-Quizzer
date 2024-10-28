@@ -9,7 +9,7 @@ export interface QuizData {
 
 export interface GameOverProps {
     // this is the props interface for the GameOver component
-    currentStrek: number
+    currentStreak: number
     longestStreak: number
     handleStartNewGame: () => void
 }
